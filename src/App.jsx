@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import GithubGraph from './components/GithubGraph';
+import Projects from './components/Projects';
 import IntroLoader from './components/IntroLoader';
 import { useSmoothScroll } from './hooks/useSmoothScroll';
 
@@ -23,7 +24,8 @@ function App() {
         <About />
         <TextParallax />
         <Skills />
-        <GithubGraph />
+        <Projects />
+              <GithubGraph />
         <Contact />
       </main>
       <Footer />
