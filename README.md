@@ -1,56 +1,16 @@
-# Portfolio — Fadjri Saputro
+# React + Vite
 
-Personal portfolio website dibangun dengan React + Vite + Tailwind CSS, dengan gaya visual playful & editorial yang terinspirasi dari [Aardvark Book Club](https://www.aardvarkbookclub.com/) — hard-shadow flat design, warna cream & coral, tipografi bold, dan beberapa animasi interaktif.
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-🔗 **Live demo**: *(isi link setelah deploy)*
+Currently, two official plugins are available:
 
-## ✨ Fitur
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-- Desain flat dengan signature **hard-shadow** (border solid + shadow offset khas, bukan blur biasa)
-- **Infinite marquee** untuk tech stack yang scroll otomatis
-- **Parallax floating elements** di background yang bergerak mengikuti scroll
-- **Scroll-linked text reveal** — teks di section About menyala kata per kata mengikuti posisi scroll (terinspirasi [text-opacity-scroll](https://github.com/olivierlarose/text-opacity-scroll))
-- Fully responsive, dari mobile sampai desktop
-- Section: Hero, About, Projects, Skills, Contact
+## React Compiler
 
-## 🛠 Tech Stack
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-- **Framework**: React (Vite)
-- **Styling**: Tailwind CSS (custom theme — warna & font disesuaikan dari design system sendiri)
-- **Animasi**: Framer Motion
-- **Font**: Fraunces (heading) & DM Sans (body)
+## Expanding the Oxlint configuration
 
-## 📁 Struktur Project
-
-```
-src/
-├── components/    # Semua komponen UI (Navbar, Hero, Projects, dst)
-├── data/          # Data project & skill (projects.js, skills.js)
-├── hooks/         # Custom hooks (scroll fade, scroll position, dll)
-└── assets/        # Gambar & aset statis
-```
-
-## 🚀 Menjalankan Secara Lokal
-
-```bash
-# Clone repo
-git clone https://github.com/<username>/<repo-name>.git
-cd <repo-name>
-
-# Install dependencies
-npm install
-
-# Jalankan development server
-npm run dev
-
-# Build untuk production
-npm run build
-```
-
-## 📬 Kontak
-
-Punya ide project, tawaran kerja, atau cuma mau say hi? Hubungi saya lewat section Contact di website, atau langsung via email/GitHub yang tertera di sana.
-
----
-
-Dibangun dengan ☕ dan sedikit perdebatan sama bug.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
