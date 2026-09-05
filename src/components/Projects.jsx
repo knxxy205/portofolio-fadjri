@@ -16,18 +16,18 @@ export default function Projects() {
         className={`container mx-auto px-6 md:px-12 transition-all duration-1000 transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
       >
         <div className="text-center mb-16">
-          <h2 className="font-heading text-4xl md:text-5xl text-main mb-4">Projects</h2>
-          <p className="font-body text-light text-lg">Beberapa karya yang pernah saya buat.</p>
+          <h2 className="font-heading text-3xl md:text-5xl text-main mb-4">Projects</h2>
+          <p className="font-body text-light text-base md:text-lg">Beberapa karya yang pernah saya buat.</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 max-w-5xl mx-auto">
           {topProjects.map(project => (
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>
         
         <div className="text-center mt-12">
-          <button className="bg-cream border-2 border-main font-body font-bold text-main py-3 px-8 rounded-full hard-shadow hard-shadow-hover transition-all">
+          <button className="bg-cream border-2 border-main font-body font-bold text-main text-sm md:text-base py-2.5 md:py-3 px-6 md:px-8 rounded-full hard-shadow hard-shadow-hover transition-all">
             Lihat Semua Project
           </button>
         </div>

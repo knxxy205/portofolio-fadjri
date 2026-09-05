@@ -8,10 +8,10 @@ export default function About() {
       className="flex w-full h-screen items-center py-20 bg-cream"
     >
       <div className="container mx-auto px-6 md:px-12 max-w-4xl text-center">
-        <h2 className="font-heading text-4xl md:text-5xl text-main mb-8">
+        <h2 className="font-heading text-3xl md:text-5xl text-main mb-8">
           About Me
         </h2>
-        <div className="font-body text-light text-xl md:text-2xl leading-relaxed space-y-6">
+        <div className="font-body text-light text-lg md:text-2xl leading-relaxed space-y-6">
           <p>
             Mahasiswa Sistem Informasi semester 5 — fokus web development & serverlab, eksperimen homelab di CasaOS.
           </p>

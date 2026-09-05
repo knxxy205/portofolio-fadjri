@@ -60,8 +60,8 @@ export default function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="font-body text-accent-coral font-bold uppercase tracking-[0.2em] text-sm mb-3">Get in touch</p>
-            <h2 className="font-heading text-4xl md:text-5xl text-main mb-6">Mari Ngobrol</h2>
-            <p className="font-body text-light text-lg mb-8">
+            <h2 className="font-heading text-3xl md:text-5xl text-main mb-6">Mari Ngobrol</h2>
+            <p className="font-body text-light text-base md:text-lg mb-8">
               Punya ide project, tawaran kerja, atau cuma mau say hi? Silakan isi form atau kontak saya langsung via email dan sosmed.
             </p>
 

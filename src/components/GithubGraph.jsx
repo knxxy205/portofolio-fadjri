@@ -13,8 +13,8 @@ export default function GithubGraph() {
         >
           <div className="flex flex-wrap items-end justify-between gap-4 mb-6">
             <div>
-              <p className="font-body text-light uppercase tracking-widest text-sm">Open source activity</p>
-              <h2 className="font-heading text-4xl text-main">GitHub Contributions</h2>
+              <p className="font-body text-light uppercase tracking-widest text-xs md:text-sm">Open source activity</p>
+              <h2 className="font-heading text-3xl md:text-4xl text-main">GitHub Contributions</h2>
             </div>
             <a
               href="https://github.com/knxxy205"

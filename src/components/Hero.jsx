@@ -60,10 +60,10 @@ export default function Hero() {
 
       {/* Konten Teks */}
       <div className="hero-content relative z-10 text-center px-6 pt-24">
-        <h1 ref={headingRef} className="font-heading text-5xl md:text-7xl text-main mb-6 leading-tight">
+        <h1 ref={headingRef} className="font-heading text-4xl sm:text-5xl md:text-7xl text-main mb-6 leading-tight">
           Bikin website yang nggak cuma jalan,<br/>tapi juga asik dilihat.
         </h1>
-        <p ref={descriptionRef} className="font-body text-light text-lg md:text-xl max-w-2xl mx-auto mb-10">
+        <p ref={descriptionRef} className="font-body text-light text-base sm:text-lg md:text-xl max-w-2xl mx-auto mb-10">
           Mahasiswa Sistem Informasi & web developer yang suka membangun aplikasi dari sisi backend sampai UI-nya kena.
         </p>
         
