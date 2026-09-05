@@ -182,6 +182,25 @@ section[id] {
 }
 
 @media (max-width: 767px) {
+  .parallax-row {
+    left: 0 !important;
+    width: 100%;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .parallax-row > span {
+    padding-inline: 0.5rem;
+  }
+
+  .parallax-row > span:not(:first-child) {
+    display: none;
+  }
+
+  .parallax-row > span:first-child {
+    font-size: clamp(1.75rem, 8vw, 2.5rem);
+  }
+
   .mobile-menu-button {
     position: relative;
     z-index: 102;

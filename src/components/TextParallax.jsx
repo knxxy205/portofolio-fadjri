@@ -13,7 +13,7 @@ function TextRow({ text, direction, offset, progress }) {
   return (
     <motion.div
       style={{ x, left: offset }}
-      className="relative flex w-max whitespace-nowrap items-center"
+      className="relative flex w-max whitespace-nowrap items-center parallax-row"
     >
       {[0, 1, 2].map((copy) => (
         <span
