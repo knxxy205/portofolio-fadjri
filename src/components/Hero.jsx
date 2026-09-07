@@ -70,7 +70,7 @@ export default function Hero() {
         {/* Tombol */}
         <a ref={buttonRef}
           href="#projects"
-          className="inline-block bg-accent-coral text-card-bg font-body font-bold text-lg py-4 px-10 rounded-full border-2 border-main hard-shadow hard-shadow-hover transition-transform"
+          className="inline-block bg-accent-coral text-card-bg font-body font-bold text-base md:text-lg py-3 md:py-4 px-7 md:px-10 rounded-full border-2 border-main hard-shadow hard-shadow-hover transition-transform"
         >
           Lihat Karya Saya
         </a>

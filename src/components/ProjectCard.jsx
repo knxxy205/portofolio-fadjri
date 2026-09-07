@@ -16,7 +16,7 @@ export default function ProjectCard({ project }) {
     <div className="bg-card-bg border-2 border-main rounded-2xl overflow-hidden hard-shadow hard-shadow-hover transition-all duration-300 flex flex-col h-full group">
       
       {/* Thumbnail (pakai div warna solid kalau blm ada gambar, nanti ganti src img) */}
-      <div className="h-40 md:h-48 w-full border-b-2 border-main bg-cream relative overflow-hidden group-hover:opacity-90 transition-opacity">
+      <div className="h-32 sm:h-36 md:h-48 w-full border-b-2 border-main bg-cream relative overflow-hidden group-hover:opacity-90 transition-opacity">
         {project.image ? (
           <img src={project.image} alt={`Screenshot ${project.title}`} loading="lazy" decoding="async" className="w-full h-full object-cover" />
         ) : (
