@@ -1,7 +1,7 @@
-import inventoryImage from '../../assets/inventory.jpg';
-import movieImage from '../../assets/movie-app.jpg';
-import donationImage from '../../assets/donasi.jpg';
-import billiardImage from '../../assets/biliard.jpg';
+import inventoryImage from '../../assets/inventory.webp';
+import movieImage from '../../assets/movie-app.webp';
+import donationImage from '../../assets/donasi.webp';
+import billiardImage from '../../assets/biliard.webp';
 
 export const projects = [
   {
