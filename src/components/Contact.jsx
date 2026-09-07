@@ -86,18 +86,18 @@ export default function Contact() {
             </div>
           </div>
 
-          <form onSubmit={handleSubmit} className="bg-cream border-2 border-main rounded-3xl p-5 sm:p-6 md:p-8 hard-shadow flex flex-col gap-4 md:gap-6">
+          <form onSubmit={handleSubmit} className="bg-cream border-2 border-main rounded-3xl p-4 sm:p-5 md:p-8 hard-shadow flex flex-col gap-3 sm:gap-4 md:gap-6">
             <div>
-              <label className="block font-heading font-bold text-main mb-2" htmlFor="contact-name">Nama</label>
-              <input id="contact-name" type="text" required placeholder="Nama kamu..." value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} className="w-full font-body p-3 md:p-4 bg-card-bg border-2 border-main rounded-2xl outline-none focus:ring-4 focus:ring-accent-coral/20" />
+              <label className="block font-heading font-bold text-main text-sm md:text-base mb-1.5 md:mb-2" htmlFor="contact-name">Nama</label>
+              <input id="contact-name" type="text" required placeholder="Nama kamu..." value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} className="w-full font-body p-2.5 md:p-4 bg-card-bg border-2 border-main rounded-2xl outline-none focus:ring-4 focus:ring-accent-coral/20" />
             </div>
             <div>
-              <label className="block font-heading font-bold text-main mb-2" htmlFor="contact-email">Email</label>
-              <input id="contact-email" type="email" required placeholder="Email kamu..." value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} className="w-full font-body p-3 md:p-4 bg-card-bg border-2 border-main rounded-2xl outline-none focus:ring-4 focus:ring-accent-coral/20" />
+              <label className="block font-heading font-bold text-main text-sm md:text-base mb-1.5 md:mb-2" htmlFor="contact-email">Email</label>
+              <input id="contact-email" type="email" required placeholder="Email kamu..." value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} className="w-full font-body p-2.5 md:p-4 bg-card-bg border-2 border-main rounded-2xl outline-none focus:ring-4 focus:ring-accent-coral/20" />
             </div>
             <div>
-              <label className="block font-heading font-bold text-main mb-2" htmlFor="contact-message">Pesan</label>
-              <textarea id="contact-message" required rows="4" placeholder="Tulis pesanmu di sini..." value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} className="w-full font-body p-3 md:p-4 bg-card-bg border-2 border-main rounded-2xl outline-none focus:ring-4 focus:ring-accent-coral/20 resize-none"></textarea>
+              <label className="block font-heading font-bold text-main text-sm md:text-base mb-1.5 md:mb-2" htmlFor="contact-message">Pesan</label>
+              <textarea id="contact-message" required rows="4" placeholder="Tulis pesanmu di sini..." value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} className="w-full font-body p-2.5 md:p-4 bg-card-bg border-2 border-main rounded-2xl outline-none focus:ring-4 focus:ring-accent-coral/20 resize-none"></textarea>
             </div>
             <button type="submit" className="bg-accent-coral text-card-bg font-body font-bold text-base md:text-lg py-3 md:py-4 px-6 md:px-8 rounded-full border-2 border-main hard-shadow hard-shadow-hover transition-transform mt-2">
               Kirim Pesan
