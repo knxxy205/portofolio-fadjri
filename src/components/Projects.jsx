@@ -10,12 +10,12 @@ export default function Projects() {
   const visibleProjects = showAll ? projects : projects.slice(0, 4);
 
   return (
-    <section id="projects" className="relative pt-20 md:pt-24 pb-24 bg-card-bg border-t-2 border-main">
+    <section id="projects" className="relative pt-14 sm:pt-16 md:pt-24 pb-16 md:pb-24 bg-card-bg border-t-2 border-main">
       <div 
         ref={ref}
         className={`container mx-auto px-6 md:px-12 transition-all duration-1000 transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
       >
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 md:mb-16">
           <h2 className="font-heading text-3xl md:text-5xl text-main mb-4">Projects</h2>
           <p className="font-body text-light text-base md:text-lg">Beberapa karya yang pernah saya buat.</p>
         </div>

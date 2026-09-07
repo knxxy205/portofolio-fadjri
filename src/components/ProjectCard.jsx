@@ -26,13 +26,13 @@ export default function ProjectCard({ project }) {
         )}
       </div>
 
-      <div className="p-4 md:p-6 flex flex-col flex-grow">
+      <div className="p-3 sm:p-4 md:p-6 flex flex-col flex-grow">
         {/* Tags */}
         <div className="flex flex-wrap gap-1.5 mb-3 md:mb-4">
           {project.tags.map((tag, idx) => (
             <span 
               key={idx} 
-              className={`text-[11px] md:text-xs font-bold px-2.5 md:px-3 py-0.5 md:py-1 rounded-full uppercase border-2 border-main ${
+              className={`text-[9px] sm:text-[10px] md:text-xs font-bold px-2 md:px-3 py-0.5 md:py-1 rounded-full uppercase border-2 border-main ${
                 tag.toLowerCase().includes('laravel') ? 'bg-accent-coral text-white' : 
                 tag.toLowerCase().includes('tailwind') ? 'bg-tag-blue' :
                 tag.toLowerCase().includes('mysql') || tag.toLowerCase().includes('mariadb') ? 'bg-tag-purple' :
@@ -46,8 +46,8 @@ export default function ProjectCard({ project }) {
         </div>
 
         {/* Info */}
-        <h3 className="font-heading text-xl md:text-2xl font-bold text-main mb-2 md:mb-3">{project.title}</h3>
-        <p className="font-body text-light text-sm md:text-base flex-grow mb-4 md:mb-6">{project.description}</p>
+        <h3 className="font-heading text-lg sm:text-xl md:text-2xl font-bold text-main mb-1.5 md:mb-3">{project.title}</h3>
+        <p className="font-body text-xs sm:text-sm md:text-base leading-relaxed flex-grow mb-3 md:mb-6">{project.description}</p>
 
         {/* Links */}
         <div className="flex gap-4 mt-auto">
@@ -56,7 +56,7 @@ export default function ProjectCard({ project }) {
               href={project.demoUrl} 
               target="_blank" 
               rel="noreferrer"
-              className="text-sm font-bold font-body bg-main text-card-bg py-2 px-4 rounded-full hover:bg-accent-coral transition-colors"
+              className="text-xs md:text-sm font-bold font-body bg-main text-card-bg py-1.5 md:py-2 px-3 md:px-4 rounded-full hover:bg-accent-coral transition-colors"
             >
               Live Demo
             </a>
@@ -66,7 +66,7 @@ export default function ProjectCard({ project }) {
               href={project.githubUrl} 
               target="_blank" 
               rel="noreferrer"
-              className="text-sm font-bold font-body bg-cream border-2 border-main py-2 px-4 rounded-full hover:bg-tag-yellow transition-colors"
+              className="text-xs md:text-sm font-bold font-body bg-cream border-2 border-main py-1.5 md:py-2 px-3 md:px-4 rounded-full hover:bg-tag-yellow transition-colors"
             >
               GitHub
             </a>
