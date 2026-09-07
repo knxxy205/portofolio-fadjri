@@ -4,6 +4,8 @@ import { gsap } from 'gsap';
 
 export function useSmoothScroll() {
   useEffect(() => {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return undefined;
+
     const lenis = new Lenis({
       autoRaf: false,
       lerp: 0.08,
