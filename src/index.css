@@ -318,6 +318,51 @@ section[id] {
     font-size: 0.8rem;
     line-height: 1.4;
   }
+
+  .contact-social-grid {
+    gap: 0.65rem;
+  }
+
+  .contact-social-card {
+    min-height: 4.25rem;
+    padding: 0.65rem 0.75rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 0 var(--color-main);
+  }
+
+  .contact-social-icon {
+    width: 2.45rem;
+    height: 2.45rem;
+    flex-basis: 2.45rem;
+    border-radius: 0.7rem;
+  }
+
+  .contact-social-icon svg {
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+
+  .contact-social-copy strong {
+    font-size: 0.88rem;
+  }
+
+  .contact-social-copy small {
+    font-size: 0.68rem;
+  }
+
+  .contact-social-arrow {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero-content {
+    padding-inline: 1rem;
+  }
+
+  .contact-social-copy small {
+    max-width: 11rem;
+  }
 }
 
 @theme {
